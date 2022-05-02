@@ -58,7 +58,7 @@ export default {
 .carousel__item {
     min-height: 200px;
     width: 100%;
-    background-color: var(--vc-clr-primary);
+    background-color: darkred;
     color: var(--vc-clr-white);
     font-size: 20px;
     border-radius: 8px;
