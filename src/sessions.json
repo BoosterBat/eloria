@@ -1,0 +1,33 @@
+[{
+  "episode": 1,
+  "thumbnail": "pfad/zum/bild",
+  "title": "Erste Session",
+  "date": "01.01.2022",
+  "summary": "blablabla",
+  "starring": [
+    "David Flinkfinger",
+    "Ayako",
+    "Dink",
+    "Toriel"
+  ]
+},
+{
+  "episode": 2,
+  "title": "Zweite Session",
+  "date": "02.02.2022"
+},
+{
+  "episode": 3,
+  "title": "dritte Session",
+  "date": "03.03.2022"
+},
+{
+  "episode": 4,
+  "title": "vierte Session",
+  "date": "04.04.2022"
+},
+{
+  "episode": 5,
+  "title": "Fünfte Session",
+  "date": "05.05.2022"
+}]

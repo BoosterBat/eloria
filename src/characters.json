@@ -1,0 +1,36 @@
+[{
+  "name": "David Flinkfinger",
+  "player": "Max",
+  "ancestry": "Mensch",
+  "class": "Barde"
+},
+{
+  "name": "Ayako",
+  "player": "Vanessa",
+  "ancestry": "Kitsune",
+  "class": "Schurke"
+},
+{
+  "name": "Dink",
+  "player": "Marica",
+  "ancestry": "Goblin",
+  "class": "Waldläufer"
+},
+{
+  "name": "Toriel",
+  "player": "Stefan",
+  "ancestry": "Elb",
+  "class": "Ermittler"
+},
+{
+  "name": "Fyr",
+  "player": "Lara",
+  "ancestry": "Strix",
+  "class": "Hexer"
+},
+{
+  "name": "Geronima",
+  "player": "Stefan",
+  "ancestry": "Ork",
+  "class": "Paladin"
+}]
