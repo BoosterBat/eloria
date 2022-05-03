@@ -3,87 +3,84 @@
     <h2>{{ character.name }}</h2>
   </div> -->
 
-	<carousel :items-to-show="2.6" :wrapAround="true">
+	<carousel :items-to-show="2" :wrapAround="true">
 		<slide v-for="character in characters" :key="character.name">
 			<div class="carousel__item carousel_characters card">
-				<img
+				<!-- <img
 					v-if="character.portrait"
 					:src="require(`@/assets/images/characters/${character.portrait}`)"
 					class="card-img-top"
-				/>
+				/> -->
 
 				<div class="card-body">
 					<div class="container">
-						<div class="row">
-							<div v-if="character.portrait == ''" class="character_item col-sm-12">
-								<div class="character_value card-title">
-									{{ character.name }}
-								</div>
-								<div class="character_key card-subtitle mb-2 text-muted">
-									Charakter
-								</div>
-								<div class="clear"></div>
+
+						<div class="row character_about">
+							<div class="col-sm-4">
+								<img
+									v-if="character.portrait"
+									:src="
+										require(`@/assets/images/characters/${character.portrait}`)
+									"
+									class="card-img-top"
+								/>
 							</div>
 
-							<div class="character_item col-sm-6">
-								<div class="character_value card-title">
-									{{ character.ancestry }}
+							<div class="col-sm-8">
+								<div class="character_item">
+									<div class="character_value card-title">
+										{{ character.ancestry }}
+									</div>
+									<div class="character_key card-subtitle mb-2 text-muted">
+										Volk
+									</div>
+									<div class="clear"></div>
 								</div>
-								<div class="character_key card-subtitle mb-2 text-muted">
-									Volk
+
+								<div class="character_item">
+									<div class="character_value card-title">
+										{{ character.gender }}
+									</div>
+									<div class="character_key card-subtitle mb-2 text-muted">
+										Geschlecht
+									</div>
+									<div class="clear"></div>
 								</div>
-								<div class="clear"></div>
+
+								<div class="character_item">
+									<div class="character_value card-title">
+										{{ character.age }}
+									</div>
+									<div class="character_key card-subtitle mb-2 text-muted">
+										Alter
+									</div>
+									<div class="clear"></div>
+								</div>
+
+								<div class="character_item">
+									<div class="character_value card-title">
+										{{ character.class }}
+									</div>
+									<div class="character_key card-subtitle mb-2 text-muted">
+										Klasse
+									</div>
+									<div class="clear"></div>
+								</div>
+
+								<div class="character_item">
+									<div class="character_value card-title">
+										{{ character.languages }}
+									</div>
+									<div class="character_key card-subtitle mb-2 text-muted">
+										Sprachen
+									</div>
+									<div class="clear"></div>
+								</div>
 							</div>
-							<!-- </div>
-					</div> -->
+            </div>
 
-							<!-- <div class="character_item col-sm-12">
-            <div class="character_value card-title">{{ character.player }}</div>
-						<div class="character_key card-subtitle mb-2 text-muted">Gespielt von</div>
-						<div class="clear"></div>
-					</div> -->
-
-							<div class="character_item col-sm-6">
-								<div class="character_value card-title">
-									{{ character.gender }}
-								</div>
-								<div class="character_key card-subtitle mb-2 text-muted">
-									Geschlecht
-								</div>
-								<div class="clear"></div>
-							</div>
-
-							<div class="character_item col-sm-6">
-								<div class="character_value card-title">
-									{{ character.age }}
-								</div>
-								<div class="character_key card-subtitle mb-2 text-muted">
-									Alter
-								</div>
-								<div class="clear"></div>
-							</div>
-
-							<div class="character_item col-sm-12">
-								<div class="character_value card-title">
-									{{ character.class }}
-								</div>
-								<div class="character_key card-subtitle mb-2 text-muted">
-									Klasse
-								</div>
-								<div class="clear"></div>
-							</div>
-
-							<div class="character_item col-sm-12">
-								<div class="character_value card-title">
-									{{ character.languages }}
-								</div>
-								<div class="character_key card-subtitle mb-2 text-muted">
-									Sprachen
-								</div>
-								<div class="clear"></div>
-							</div>
-
-							<div class="character_item col-sm-3">
+            <div class="row">
+							<div class="character_item col-sm-2">
 								<div class="character_value card-title">
 									{{ character.level }}
 								</div>
@@ -93,7 +90,7 @@
 								<div class="clear"></div>
 							</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-2">
 								<div class="character_value card-title">
 									{{ character.hit_points }}
 								</div>
@@ -103,7 +100,7 @@
 								<div class="clear"></div>
 							</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-2">
 								<div class="character_value card-title">
 									{{ character.armor_class }}
 								</div>
@@ -113,7 +110,7 @@
 								<div class="clear"></div>
 							</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-2">
 								<div class="character_value card-title">
 									{{ character.shield }}
 								</div>
@@ -123,7 +120,7 @@
 								<div class="clear"></div>
 							</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-2">
 								<div class="character_value card-title">
 									{{ character.class_dc }}
 								</div>
@@ -133,7 +130,7 @@
 								<div class="clear"></div>
 							</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-2">
 								<div class="character_value card-title">
 									{{ character.perception }}
 								</div>
@@ -145,7 +142,7 @@
 
 							<div class="character_headline">Rettungswürfe</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-4">
 								<div class="character_value card-title">
 									{{ character.fortitude }}
 								</div>
@@ -155,7 +152,7 @@
 								<div class="clear"></div>
 							</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-4">
 								<div class="character_value card-title">
 									{{ character.reflex }}
 								</div>
@@ -165,7 +162,7 @@
 								<div class="clear"></div>
 							</div>
 
-							<div class="character_item col-sm-3">
+							<div class="character_item col-sm-4">
 								<div class="character_value card-title">
 									{{ character.will }}
 								</div>
