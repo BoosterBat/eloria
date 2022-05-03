@@ -1,36 +1,174 @@
-[{
-  "name": "David Flinkfinger",
-  "player": "Max",
-  "ancestry": "Mensch",
-  "class": "Barde"
-},
-{
-  "name": "Ayako",
-  "player": "Vanessa",
-  "ancestry": "Kitsune",
-  "class": "Schurke"
-},
-{
-  "name": "Dink",
-  "player": "Marica",
-  "ancestry": "Goblin",
-  "class": "Waldläufer"
-},
-{
-  "name": "Toriel",
-  "player": "Stefan",
-  "ancestry": "Elb",
-  "class": "Ermittler"
-},
-{
-  "name": "Fyr",
-  "player": "Lara",
-  "ancestry": "Strix",
-  "class": "Hexer"
-},
-{
-  "name": "Geronima",
-  "player": "Stefan",
-  "ancestry": "Ork",
-  "class": "Paladin"
-}]
+[
+  {
+    "name": "David Flinkfinger",
+    "portrait": "David_Flinkfinger_card.png",
+    "player": "Max",
+    "ancestry": "Mensch",
+    "gender": "Männlich",
+    "age": "22",
+    "class": "Barde",
+    "languages": "Common, Zwergisch, Elbisch, Halbling",
+    "level": "5",
+    "hit_points": "58",
+    "armor_class": "22",
+    "shield": "0",
+    "class_dc": "21",
+    "perception": "10",
+    "fortitude": "9",
+    "reflex": "11",
+    "will": "10",
+    "strength": "12",
+    "dexterity": "14",
+    "constitution": "14",
+    "intelligence": "14",
+    "wisdom": "12",
+    "charisma": "19",
+    "acrobatics": "2",
+    "arcana": "11",
+    "athletics": "8",
+    "crafting": "9",
+    "deception": "13",
+    "diplomacy": "11",
+    "intimidation": "12",
+    "medicine": "1",
+    "nature": "8",
+    "occultism": "9",
+    "performance": "13",
+    "religion": "1",
+    "society": "9",
+    "stealth": "9",
+    "survival": "1",
+    "thievery": "2",
+    "lore_name": "Alkohol",
+    "lore_value": "9"
+  },
+  {
+    "name": "Ayako",
+    "portrait": "Ayako_-_Human_card.png",
+    "player": "Vanessa",
+    "ancestry": "Kitsune",
+    "class": "Schurke"
+  },
+  {
+    "name": "Dink",
+    "portrait": "dink_card.png",
+    "player": "Marica",
+    "ancestry": "Goblin",
+    "class": "Waldläufer"
+  },
+  {
+    "name": "Toriel",
+    "portrait": "",
+    "player": "Stephan",
+    "ancestry": "Waldelb",
+    "gender": "Männlich",
+    "age": "0",
+    "class": "Ermittler",
+    "languages": "Common, Celestial, Drakonisch, Elbisch, Gnom, Sylvian",
+    "level": "4",
+    "hit_points": "38",
+    "armor_class": "20",
+    "shield": "0",
+    "class_dc": "20",
+    "perception": "9",
+    "saving_throws": [
+      {
+        "fortitude": "6",
+        "reflex": "11",
+        "will": "9"
+      }
+    ],
+    "stats": [
+      {
+        "strength": "10",
+        "dexterity": "16",
+        "constitution": "10",
+        "intelligence": "18",
+        "wisdom": "12",
+        "charisma": "12"
+      }
+    ],
+    "skills": [
+      {
+        "acrobatics": "11",
+        "arcana": "10",
+        "athletics": "6",
+        "crafting": "10",
+        "deception": "7",
+        "diplomacy": "10",
+        "intimidation": "7",
+        "medicine": "7",
+        "nature": "1",
+        "occultism": "4",
+        "performance": "1",
+        "religion": "1",
+        "society": "10",
+        "stealth": "11",
+        "survival": "7",
+        "thievery": "3",
+        "hunting_lore": "10"
+      }
+    ]
+  },
+  {
+    "name": "Fyr",
+    "portrait": "fyr_card.png",
+    "player": "Lara",
+    "ancestry": "Strix",
+    "class": "Hexer"
+  },
+  {
+    "name": "Gheronima",
+    "portrait": "",
+    "player": "Stephan",
+    "ancestry": "Ork",
+    "gender": "Weiblich",
+    "age": "0",
+    "class": "Paladin",
+    "languages": "Common, Goblin, Orkisch",
+    "level": "5",
+    "hit_points": "80",
+    "armor_class": "24",
+    "shield": "2",
+    "class_dc": "21",
+    "perception": "9",
+    "saving_throws": [
+      {
+        "fortitude": "13",
+        "reflex": "7",
+        "will": "11"
+      }
+    ],
+    "stats": [
+      {
+        "strength": "19",
+        "dexterity": "10",
+        "constitution": "18",
+        "intelligence": "12",
+        "wisdom": "14",
+        "charisma": "12"
+      }
+    ],
+    "skills": [
+      {
+        "acrobatics": "0",
+        "arcana": "8",
+        "athletics": "13",
+        "crafting": "1",
+        "deception": "1",
+        "diplomacy": "8",
+        "intimidation": "10",
+        "medicine": "2",
+        "nature": "2",
+        "occultism": "8",
+        "performance": "1",
+        "religion": "9",
+        "society": "8",
+        "stealth": "7",
+        "survival": "2",
+        "thievery": "0",
+        "demon_lore": "8"
+      }
+    ]
+  }
+]

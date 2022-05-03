@@ -1,25 +1,21 @@
 <template>
-  <SliderCarousel/>
+  <SliderCarousel />
+  <CharacterSheets />
 </template>
 
 <script>
 import SliderCarousel from './components/SliderCarousel.vue'
+import CharacterSheets from './components/CharacterSheets.vue'
+
+import './css/normalize.scss'
+import './css/carousel.scss'
+import './css/characters.sass'
 
 export default {
   name: 'App',
   components: {
-    SliderCarousel
+    SliderCarousel,
+    CharacterSheets
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
