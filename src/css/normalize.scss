@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   background-color: darkgrey !important;
+  padding-bottom: 20px;
 }
 
 #app {
@@ -13,4 +14,8 @@ body {
 
 .clear {
   clear: both;
+}
+
+.navbar {
+  margin-bottom: 20px;
 }
